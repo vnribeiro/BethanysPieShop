@@ -9,7 +9,6 @@ namespace BethanysPieShopHRM.Components.Pages
 
         protected override async Task OnInitializedAsync()
         {
-            await Task.Delay(500);
             Employees = MockDataService.Employees;
         }
     }
