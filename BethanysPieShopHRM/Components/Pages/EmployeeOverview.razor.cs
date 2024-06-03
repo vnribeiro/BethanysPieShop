@@ -7,6 +7,7 @@ namespace BethanysPieShopHRM.Components.Pages
     {
         public List<Employee>? Employees { get; set; } = default!;
         private Employee? _selectedEmployee;
+        public string Tittle = "Employee Overview";
 
         protected override async Task OnInitializedAsync()
         {

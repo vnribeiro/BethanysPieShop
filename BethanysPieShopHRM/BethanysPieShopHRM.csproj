@@ -15,7 +15,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\ProfilePicture.razor" />
     <_ContentIncludedByDefault Remove="Components\QuickViewPopup.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\ProfilePicture.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Components\ProfilePicture.razor">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
