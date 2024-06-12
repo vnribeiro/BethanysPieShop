@@ -1,4 +1,4 @@
-﻿using BethanysPieShopHRM.Services;
+﻿using BethanysPieShopHRM.Data.Services;
 
 namespace BethanysPieShopHRM.Components.Widgets
 {
